@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قمصان كأس العالم 2026 | استوديو التخصيص التفاعلي</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                    },
+                    colors: {
+                        wcBlue: '#0d1127',
+                        wcDark: '#070913',
+                        wcGold: '#d4af37',
+                        wcNeonCyan: '#00f0ff',
+                        wcNeonMagenta: '#ff007f',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #070913;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0d1127;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #d4af37;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #ff007f;
+        }
+        .glassmorphism {
+            background: rgba(13, 17, 39, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .jersey-shadow {
+            filter: drop-shadow(0px 15px 10px rgba(0, 0, 0, 0.6));
+        }
+        .glow-cyan:hover {
+            box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+        }
+        .glow-gold {
+            box-shadow: 0 0 25px rgba(212, 175, 55, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-wcNeonMagenta selection:text-white">
+
+    <!-- خلفية تفاعلية متحركة -->
+    <div class="fixed inset-0 -z-10 overflow-hidden">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-wcNeonCyan/10 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-wcNeonMagenta/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+    </div>
+
+    <!-- الهيدر والناف بار -->
+    <header class="sticky top-0 z-40 glassmorphism border-b border-white/10">
+        <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-wcNeonCyan to-wcNeonMagenta p-0.5 flex items-center justify-center shadow-lg">
+                    <span class="text-2xl">🏆</span>
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-black tracking-wider bg-gradient-to-r from-white via-wcGold to-wcNeonCyan bg-clip-text text-transparent">كأس العالم 2026</h1>
+                    <p class="text-xs text-gray-400 font-semibold uppercase tracking-widest">معرض قمصان المنتخبات التفاعلي</p>
+                </div>
+            </div>
+            
+            <nav class="flex items-center gap-4 text-sm font-semibold">
+                <a href="#gallery" class="px-3 py-2 text-gray-300 hover:text-wcNeonCyan transition-colors">المعرض</a>
+                <a href="#customizer" class="px-4 py-2 bg-gradient-to-r from-wcNeonCyan to-wcNeonMagenta hover:from-wcNeonMagenta hover:to-wcNeonCyan text-white rounded-lg transition-all duration-300 shadow-md">استوديو التصميم الخاص بك</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- البانر الترحيبي (Hero Section) -->
+    <section class="relative py-20 px-4 overflow-hidden border-b border-white/5">
+        <div class="container mx-auto text-center relative z-10">
+            <span class="px-4 py-1.5 rounded-full bg-wcNeonCyan/10 text-wcNeonCyan text-xs font-bold border border-wcNeonCyan/20 uppercase tracking-widest mb-6 inline-block">أمريكا • كندا • المكسيك</span>
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                اكتشف وصمّم قميص <br class="md:hidden"> منتخباتك المفضلة لـ <span class="text-wcGold">مونديال 2026</span>
+            </h2>
+            <p class="text-gray-400 max-w-2xl mx-auto text-base md:text-lg mb-8 leading-relaxed">
+                استعرض تفاصيل قمصان أقوى المنتخبات العالمية التي ستخوض غمار المنافسة الكبرى، جرب تخصيص قميصك بالاسم والرقم المفضل عبر استوديو المحاكاة التفاعلي الذكي.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#customizer" class="px-8 py-4 bg-gradient-to-r from-wcNeonCyan to-wcNeonMagenta text-white font-bold rounded-xl shadow-lg shadow-wcNeonMagenta/25 hover:shadow-wcNeonCyan/40 hover:scale-105 transition-all duration-300">
+                    <i class="fa-solid fa-wand-magic-sparkles mr-2"></i>ابدأ بتصميم قميصك الآن
+                </a>
+                <a href="#gallery" class="px-8 py-4 bg-white/5 hover:bg-white/10 text-white font-bold rounded-xl border border-white/10 transition-all duration-300">
+                    <i class="fa-solid fa-shirt mr-2"></i>تصفح القمصان الرسمية
+                </a>
+            </div>
+        </div>
+        <!-- تمثيل هندسي للملعب في الخلفية -->
+        <div class="absolute inset-0 opacity-10 pointer-events-none flex items-center justify-center">
+            <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-4xl">
+                <rect x="5" y="5" width="790" height="390" rx="10" stroke="white" stroke-width="2"/>
+                <line x1="400" y1="5" x2="400" y2="395" stroke="white" stroke-width="2"/>
+                <circle cx="400" cy="200" r="80" stroke="white" stroke-width="2"/>
+                <rect x="5" y="100" width="100" height="200" stroke="white" stroke-width="2"/>
+                <rect x="695" y="100" width="100" height="200" stroke="white" stroke-width="2"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- قسم المعرض والفلترة (Gallery & Filter) -->
+    <section id="gallery" class="py-16 px-4 bg-wcDark/50">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-black text-white flex items-center gap-3">
+                        <span class="text-wcNeonCyan"><i class="fa-solid fa-swatchbook"></i></span>
+                        معرض القمصان الذكي
+                    </h3>
+                    <p class="text-gray-400 mt-2 text-sm">استكشف التصميمات الرسمية والبديلة لعمالقة كرة القدم</p>
+                </div>
+                
+                <!-- أزرار التصفية والبحث -->
+                <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+                    <!-- حقل البحث -->
+                    <div class="relative flex-grow sm:w-64">
+                        <input type="text" id="searchInput" placeholder="ابحث عن منتخب..." class="w-full bg-wcBlue/80 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-wcNeonCyan text-white transition-all pr-10">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-3.5 text-gray-400"></i>
+                    </div>
+                    <!-- منسدلة القارات -->
+                    <div class="relative">
+                        <select id="confederationFilter" class="w-full sm:w-48 bg-wcBlue/80 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-wcNeonCyan text-white appearance-none cursor-pointer">
+                            <option value="all">جميع القارات</option>
+                            <option value="UEFA">أوروبا (UEFA)</option>
+                            <option value="CONMEBOL">أمريكا الجنوبية (CONMEBOL)</option>
+                            <option value="CAF">أفريقيا (CAF)</option>
+                            <option value="CONCACAF">أمريكا الشمالية (CONCACAF)</option>
+                            <option value="AFC">آسيا (AFC)</option>
+                        </select>
+                        <i class="fa-solid fa-chevron-down absolute left-3 top-4 text-gray-400 pointer-events-none"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- شبكة المنتخبات -->
+            <div id="teamsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- سيتم ملؤها عبر الـ JavaScript ديناميكياً -->
+            </div>
+            
+            <!-- رسالة عدم وجود نتائج -->
+            <div id="noResults" class="hidden text-center py-20">
+                <i class="fa-solid fa-face-frown text-6xl text-gray-600 mb-4"></i>
+                <h4 class="text-xl font-bold text-gray-400">لم نجد أي منتخب يطابق بحثك</h4>
+                <p class="text-gray-500 text-sm mt-1">تأكد من كتابة الاسم بشكل صحيح أو جرب تصفية قارة أخرى</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم استوديو التخصيص التفاعلي (Jersey Customizer Studio) -->
+    <section id="customizer" class="py-20 px-4 bg-wcBlue/30 border-t border-white/5 relative">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <span class="px-4 py-1.5 rounded-full bg-wcNeonMagenta/10 text-wcNeonMagenta text-xs font-bold border border-wcNeonMagenta/20 uppercase tracking-widest mb-4 inline-block">تفاعل معنا</span>
+                <h3 class="text-3xl md:text-5xl font-black text-white">استوديو تخصيص القميص</h3>
+                <p class="text-gray-400 max-w-lg mx-auto text-sm md:text-base mt-2">اصنع نسختك الخاصة من قميص أي منتخب الآن! أضف اسمك ورقمك المفضل وشاهد النتيجة في الوقت الفعلي.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- عمود عرض قميص المحاكاة والـ SVG (Left / 5 Cols on desktop) -->
+                <div class="lg:col-span-5 flex flex-col items-center justify-center">
+                    <div class="relative w-full max-w-[360px] aspect-[4/5] glassmorphism rounded-3xl p-8 flex flex-col items-center justify-between shadow-2xl border-white/10 overflow-hidden group">
+                        
+                        <!-- تفاصيل جمالية في الكارت -->
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/40 pointer-events-none"></div>
+                        <div class="absolute top-4 left-4 text-xs font-bold tracking-widest text-white/40 uppercase" id="customizerCardEdition">نسخة المشجعين</div>
+                        <div class="absolute top-4 right-4 flex items-center gap-1.5 bg-white/10 px-2.5 py-1 rounded-full text-[10px] font-bold text-wcNeonCyan border border-white/5" id="customizerCountryBadge">
+                            <span id="customizerFlag">🇸🇦</span> <span id="customizerCountryName">السعودية</span>
+                        </div>
+
+                        <!-- حاوية القميص التفاعلية -->
+                        <div class="w-full flex-grow flex items-center justify-center py-4 relative z-10">
+                            <div class="w-full max-w-[260px] jersey-shadow transition-transform duration-500 transform group-hover:scale-105" id="customizerJerseyContainer">
+                                <!-- سيتم حقن الـ SVG هنا بناءً على الاختيارات -->
+                            </div>
+                        </div>
+
+                        <!-- معلومات القميص في الكارت -->
+                        <div class="w-full text-center relative z-10 border-t border-white/10 pt-4">
+                            <h4 class="text-lg font-bold text-white tracking-wide" id="customizerJerseyTitle">القميص الأساسي لعام 2026</h4>
+                            <p class="text-xs text-gray-400 uppercase mt-1 tracking-widest" id="customizerJerseyConfed">الإتحاد الآسيوي لكرة القدم</p>
+                        </div>
+                    </div>
+                    
+                    <!-- أزرار التحكم بالتحميل والمشاركة -->
+                    <div class="flex gap-4 mt-6 w-full max-w-[360px]">
+                        <button onclick="downloadJerseyDesign()" class="flex-1 py-3 px-4 bg-gradient-to-r from-wcNeonCyan to-wcNeonMagenta text-white rounded-xl font-bold text-sm hover:opacity-95 transition-opacity flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-download"></i> تحميل التصميم
+                        </button>
+                        <button onclick="copyShareLink()" class="py-3 px-4 bg-white/5 hover:bg-white/10 border border-white/10 text-white rounded-xl font-bold text-sm transition-all flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-share-nodes"></i> مشاركة
+                        </button>
+                    </div>
+                    <p id="shareAlert" class="text-xs text-wcNeonCyan mt-2 font-bold opacity-0 transition-opacity duration-300">تم نسخ رابط الاستوديو لمشاركته مع أصدقائك!</p>
+                </div>
+
+                <!-- عمود أدوات التحكم والتحكم بالتصميم (Right / 7 Cols on desktop) -->
+                <div class="lg:col-span-7 space-y-8 glassmorphism p-8 md:p-10 rounded-3xl border-white/10">
+                    <h4 class="text-xl font-bold border-b border-white/10 pb-4 text-wcGold flex items-center gap-2">
+                        <i class="fa-solid fa-sliders"></i> لوحة التحكم واستوديو التصميم
+                    </h4>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- اختيار المنتخب -->
+                        <div class="space-y-2">
+                            <label class="block text-sm font-semibold text-gray-300">اختر المنتخب</label>
+                            <div class="relative">
+                                <select id="custTeamSelect" onchange="updateCustomizer()" class="w-full bg-wcDark/80 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-wcNeonCyan text-white appearance-none cursor-pointer">
+                                    <!-- سيتم ملؤها عبر الـ JS -->
+                                </select>
+                                <i class="fa-solid fa-chevron-down absolute left-3 top-4 text-gray-400 pointer-events-none"></i>
+                            </div>
+                        </div>
+
+                        <!-- نوع القميص (أساسي / احتياطي) -->
+                        <div class="space-y-2">
+                            <label class="block text-sm font-semibold text-gray-300">نوع القميص</label>
+                            <div class="grid grid-cols-2 gap-2 bg-wcDark/80 p-1.5 rounded-xl border border-white/10">
+                                <button onclick="toggleJerseyType('home')" id="btnHome" class="py-2 text-xs font-bold rounded-lg transition-all bg-wcNeonCyan text-wcDark">الأساسي</button>
+                                <button onclick="toggleJerseyType('away')" id="btnAway" class="py-2 text-xs font-bold rounded-lg transition-all text-gray-400 hover:text-white">الاحتياطي</button>
+                            </div>
+                        </div>
+
+                        <!-- إدخال الاسم المخصص -->
+                        <div class="space-y-2">
+                            <label class="block text-sm font-semibold text-gray-300">الاسم على القميص</label>
+                            <div class="relative">
+                                <input type="text" id="custNameInput" oninput="updateCustomizer()" maxlength="12" placeholder="AL-DAWSARI" class="w-full bg-wcDark/80 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-wcNeonCyan text-white uppercase font-bold tracking-wider">
+                                <span class="absolute left-3 top-3.5 text-xs text-gray-500 font-bold" id="nameCharCount">0/12</span>
+                            </div>
+                            <p class="text-[10px] text-gray-500">ملاحظة: تدعم القمصان الأحرف الإنجليزية فقط للحفاظ على أصالة المونديال.</p>
+                        </div>
+
+                        <!-- إدخال الرقم المخصص -->
+                        <div class="space-y-2">
+                            <label class="block text-sm font-semibold text-gray-300">الرقم المفضل</label>
+                            <input type="number" id="custNumInput" oninput="updateCustomizer()" min="1" max="99" placeholder="10" class="w-full bg-wcDark/80 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-wcNeonCyan text-white font-black text-center">
+                        </div>
+                    </div>
+
+                    <!-- تخصيص الأنماط والألوان الإضافية بشكل مستقل -->
+                    <div class="border-t border-white/10 pt-6 space-y-4">
+                        <h5 class="text-sm font-bold text-gray-300">خيارات متقدمة لتخصيص القمصان</h5>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <!-- تعديل لون اسم ورقم اللاعب على القميص للحرية المطلقة -->
+                            <div class="space-y-2">
+                                <label class="block text-xs font-bold text-gray-400">لون الاسم والرقم المخصص</label>
+                                <div class="flex items-center gap-3 bg-wcDark/50 p-2.5 rounded-xl border border-white/5">
+                                    <input type="color" id="custFontColor" onchange="updateCustomizer()" class="w-10 h-10 bg-transparent border-0 cursor-pointer rounded-lg">
+                                    <span class="text-xs text-gray-300 font-mono" id="custFontColorValue">#ffffff</span>
+                                </div>
+                            </div>
+
+                            <!-- نمط الياقة (العنق) -->
+                            <div class="space-y-2">
+                                <label class="block text-xs font-bold text-gray-400">نمط الياقة (Collar Style)</label>
+                                <div class="grid grid-cols-2 gap-2 bg-wcDark/50 p-1 rounded-xl border border-white/5 text-xs">
+                                    <button id="collarRound" onclick="setCollarStyle('round')" class="py-2 rounded-lg bg-white/10 text-white font-bold">دائري</button>
+                                    <button id="collarV" onclick="setCollarStyle('v')" class="py-2 rounded-lg text-gray-400 hover:text-white font-bold">على شكل V</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- نافذة تفاصيل المنتخبات منبثقة تفاعلية (Modal) -->
+    <div id="teamModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden transition-all duration-300 opacity-0">
+        <div class="w-full max-w-2xl glassmorphism rounded-3xl border-white/10 overflow-hidden relative shadow-2xl flex flex-col md:flex-row transform scale-95 transition-transform duration-300">
+            <!-- زر الإغلاق -->
+            <button onclick="closeModal()" class="absolute top-4 left-4 z-20 w-10 h-10 rounded-full bg-black/60 hover:bg-black/90 text-white flex items-center justify-center border border-white/10 transition-colors">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <!-- يسار النافذة: استعراض تفاعلي سريع للقميص المختار -->
+            <div class="w-full md:w-1/2 bg-wcDark/90 p-8 flex flex-col items-center justify-between border-b md:border-b-0 md:border-l border-white/10 relative">
+                <div class="absolute top-4 right-4 text-xs font-bold tracking-widest text-white/20 uppercase">استعراض سريع</div>
+                <div class="w-full flex-grow flex items-center justify-center py-6">
+                    <div id="modalJerseyContainer" class="w-full max-w-[200px] jersey-shadow">
+                        <!-- SVG -->
+                    </div>
+                </div>
+                <!-- مبدل القميص في المودال -->
+                <div class="flex gap-2 w-full max-w-[180px]">
+                    <button id="modalBtnHome" onclick="switchModalJerseyType('home')" class="flex-1 py-1.5 text-xs font-bold rounded-lg bg-wcNeonCyan text-wcDark transition-all">الأساسي</button>
+                    <button id="modalBtnAway" onclick="switchModalJerseyType('away')" class="flex-1 py-1.5 text-xs font-bold rounded-lg bg-white/5 text-gray-300 hover:text-white border border-white/10 transition-all">الاحتياطي</button>
+                </div>
+            </div>
+
+            <!-- يمين النافذة: تفاصيل وحقائق المنتخب -->
+            <div class="w-full md:w-1/2 p-8 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <span id="modalTeamFlag" class="text-3xl">🇸🇦</span>
+                        <div>
+                            <span id="modalTeamConfed" class="text-xs text-wcNeonCyan font-black tracking-wider uppercase">الإتحاد الآسيوي</span>
+                            <h4 id="modalTeamName" class="text-2xl font-black text-white">المملكة العربية السعودية</h4>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 my-6">
+                        <div class="flex items-center justify-between text-sm py-2 border-b border-white/5">
+                            <span class="text-gray-400 font-semibold"><i class="fa-solid fa-cubes text-wcGold mr-1"></i> مجموعة مونديال 2026:</span>
+                            <span id="modalTeamGroup" class="font-black text-white">المجموعة C</span>
+                        </div>
+                        <div class="flex items-center justify-between text-sm py-2 border-b border-white/5">
+                            <span class="text-gray-400 font-semibold"><i class="fa-solid fa-users text-wcNeonMagenta mr-1"></i> مدرب المنتخب الحالي:</span>
+                            <span id="modalTeamCoach" class="font-bold text-white">رينارد</span>
+                        </div>
+                        <div class="flex items-center justify-between text-sm py-2 border-b border-white/5">
+                            <span class="text-gray-400 font-semibold"><i class="fa-solid fa-star text-wcNeonCyan mr-1"></i> أبرز النجوم واللاعبين:</span>
+                            <span id="modalTeamStar" class="font-bold text-white text-xs">سالم الدوسري</span>
+                        </div>
+                        <div class="flex flex-col gap-1 text-xs py-2">
+                            <span class="text-gray-400 font-semibold mb-1"><i class="fa-solid fa-circle-info text-wcGold mr-1"></i> وصف التصميم الرسمي لعام 2026:</span>
+                            <span id="modalJerseyDesc" class="text-gray-300 leading-relaxed">نقوش زهرية ونباتية مستوحاة من ثقافة النخيل تعبر عن النماء والأصالة السعودية.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-4 border-t border-white/10 flex gap-3">
+                    <button id="modalCustomizeBtn" class="flex-1 py-3 px-4 bg-gradient-to-r from-wcNeonCyan to-wcNeonMagenta text-white font-bold text-xs rounded-xl hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-shirt"></i> تخصيص القميص بالاسم والرقم
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- فوتر الموقع -->
+    <footer class="mt-auto bg-wcDark border-t border-white/10 py-10 px-4 text-center">
+        <div class="container mx-auto space-y-4">
+            <div class="flex justify-center items-center gap-2 text-wcGold font-black text-lg">
+                <span>🏆</span>
+                <span>محاكاة قمصان كأس العالم 2026</span>
+            </div>
+            <p class="text-xs text-gray-500 max-w-md mx-auto">
+                تصميم تفاعلي مبني بالكامل على تقنيات الـ SVG المتجاوبة والـ Tailwind CSS لتقديم تجربة حيوية وسلسة تليق بأكبر حدث رياضي كروي في العالم.
+            </p>
+            <div class="text-[10px] text-gray-600">
+                &copy; 2026 جميع الحقوق محفوظة لجمهور وعشاق المونديال.
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript الأساسي والبيانات التفاعلية -->
+    <script>
+        // داتا المنتخبات مع أنماط وتفاصيل قمصانهم
+        const teamsData = [
+            {
+                id: 'saudi',
+                name: 'السعودية',
+                englishName: 'Saudi Arabia',
+                flag: '🇸🇦',
+                confederation: 'AFC',
+                group: 'A',
+                coach: 'هيرفي رينارد',
+                star: 'سالم الدوسري',
+                descHome: 'أخضر يزدان بنقوش نباتية دقيقة تحاكي أوراق النخيل العتيقة بتناغم عصري مذهل مع الياقة الذهبية.',
+                descAway: 'قميص أبيض ناصع مع لمسات ذهبية حالمة على الجانبين تمثل رمال الصحاري اللامعة تحت شمس المملكة.',
+                homeColors: {
+                    base: '#0B5E34', // أخضر
+                    trim: '#d4af37', // ذهبي
+                    pattern: 'palm',
+                    accent: '#ffffff', // أبيض
+                    fontColor: '#ffffff'
+                },
+                awayColors: {
+                    base: '#ffffff', // أبيض
+                    trim: '#0B5E34', // أخضر
+                    pattern: 'sash',
+                    accent: '#d4af37', // ذهبي
+                    fontColor: '#0B5E34'
+                }
+            },
+            {
+                id: 'argentina',
+                name: 'الأرجنتين',
+                englishName: 'Argentina',
+                flag: '🇦🇷',
+                confederation: 'CONMEBOL',
+                group: 'C',
+                coach: 'ليونيل سكالوني',
+                star: 'ليونيل ميسي',
+                descHome: 'الخطوط الرأسية الزرقاء الفاتحة والبيضاء الأيقونية مع إضافات تفاصيل الشمس الأرجنتينية الشهيرة باللون الذهبي البراق.',
+                descAway: 'الأزرق الداكن الملكي الممتزج مع نقوش النيران المضيئة في أسفل الخصر للتعبير عن طاقة الجماهير الأرجنتينية الثائرة.',
+                homeColors: {
+                    base: '#75AADB', // أزرق أرجنتيني
+                    trim: '#132247', // كحلي
+                    pattern: 'stripes',
+                    accent: '#ffffff',
+                    fontColor: '#132247'
+                },
+                awayColors: {
+                    base: '#132247', // كحلي
+                    trim: '#75AADB', // أزرق فاتح
+                    pattern: 'fire',
+                    accent: '#d4af37',
+                    fontColor: '#ffffff'
+                }
+            },
+            {
+                id: 'brazil',
+                name: 'البرازيل',
+                englishName: 'Brazil',
+                flag: '🇧🇷',
+                confederation: 'CONMEBOL',
+                group: 'E',
+                coach: 'دوريفال جونيور',
+                star: 'فينيسيوس جونيور',
+                descHome: 'اللون الأصفر الكلاسيكي المبهج للمنتخب مع نقوش مستوحاة من رقصة السامبا وجلود الفهود الأمازونية الرائعة والياقة الخضراء.',
+                descAway: 'أزرق محيطي غامق يجسد شواطئ كوباكابانا المشمسة، مع أكمام تتدرج بالنقوش الخضراء والصفراء البديعة.',
+                homeColors: {
+                    base: '#FDE047', // أصفر
+                    trim: '#15803D', // أخضر برازيلي
+                    pattern: 'safari',
+                    accent: '#1D4ED8', // أزرق
+                    fontColor: '#15803D'
+                },
+                awayColors: {
+                    base: '#1D4ED8', // أزرق
+                    trim: '#FDE047', // أصفر
+                    pattern: 'gradient-sleeves',
+                    accent: '#15803D',
+                    fontColor: '#ffffff'
+                }
+            },
+            {
+                id: 'morocco',
+                name: 'المغرب',
+                englishName: 'Morocco',
+                flag: '🇲🇦',
+                confederation: 'CAF',
+                group: 'F',
+                coach: 'وليد الركراكي',
+                star: 'أشرف حكيمي',
+                descHome: 'أحمر قاني أصيل يتوسطه شريط أخضر داكن مع نقوش هندسية فسيفسائية مغربية تقليدية "الزليج" لتمجيد الهوية والتاريخ العريق.',
+                descAway: 'أبيض أنيق يتميز بتطريزات أمازيغية متقاطعة باللونين الأحمر والأخضر لتعكس جمال التراث الجبلي للمملكة.',
+                homeColors: {
+                    base: '#C2185B', // أحمر مغربي
+                    trim: '#004D40', // أخضر زليجي
+                    pattern: 'zellige',
+                    accent: '#FFD54F', // ذهبي خفيف
+                    fontColor: '#ffffff'
+                },
+                awayColors: {
+                    base: '#ffffff', // أبيض
+                    trim: '#C2185B', // أحمر
+                    pattern: 'geometric',
+                    accent: '#004D40',
+                    fontColor: '#004D40'
+                }
+            },
+            {
+                id: 'france',
+                name: 'فرنسا',
+                englishName: 'France',
+                flag: '🇫🇷',
+                confederation: 'UEFA',
+                group: 'B',
+                coach: 'ديدييه ديشان',
+                star: 'كيليان مبابي',
+                descHome: 'الأزرق الداكن الملكي الكلاسيكي لفرنسا مع الديك الفرنسي العملاق باللون الذهبي الساطع على الصدر تعبيراً عن القوة والنهضة.',
+                descAway: 'أبيض عاجي بلمسة تاريخية تتضمن خطوطاً رفيعة زرقاء وحمراء منسوجة كعمل فني يمثل الثورة الفرنسية.',
+                homeColors: {
+                    base: '#0A192F', // أزرق داكن
+                    trim: '#E63946', // أحمر
+                    pattern: 'plain-minimal',
+                    accent: '#d4af37', // ذهبي للديك
+                    fontColor: '#d4af37'
+                },
+                awayColors: {
+                    base: '#ffffff', // أبيض
+                    trim: '#003049', // أزرق
+                    pattern: 'pinstripes',
+                    accent: '#D62828',
+                    fontColor: '#003049'
+                }
+            },
+            {
+                id: 'germany',
+                name: 'ألمانيا',
+                englishName: 'Germany',
+                flag: '🇩🇪',
+                confederation: 'UEFA',
+                group: 'D',
+                coach: 'جوليان ناجلسمان',
+                star: 'جمال موسيالا',
+                descHome: 'أبيض ناصع تتداخل عند الأكتاف شعلات نارية ديناميكية بألوان العلم الألماني (أسود، أحمر، ذهبي) محتفية بالقوة المتجددة.',
+                descAway: 'نمط عصري حديث للغاية ومثير للجدل، يمزج بين تدرجات الفوشيا والبنفسجي بنمط هندسي رقمي يحاكي أسلوب الميتافيرس.',
+                homeColors: {
+                    base: '#ffffff', // أبيض
+                    trim: '#000000', // أسود
+                    pattern: 'germany-fire',
+                    accent: '#E63946',
+                    fontColor: '#000000'
+                },
+                awayColors: {
+                    base: '#8B5CF6', // بنفسجي
+                    trim: '#EC4899', // فوشيا
+                    pattern: 'digital-mesh',
+                    accent: '#ffffff',
+                    fontColor: '#ffffff'
+                }
+            },
+            {
+                id: 'japan',
+                name: 'اليابان',
+                englishName: 'Japan',
+                flag: '🇯🇵',
+                confederation: 'AFC',
+                group: 'G',
+                coach: 'هاجيمي مورياسو',
+                star: 'تاكيفوسا كوبو',
+                descHome: 'الأزرق الساموراي المذهل الذي يتخلله نقوش خفية ثلاثية الأبعاد تمثل تيارات رياح تسونامي وطاقة التنانين الأسطورية اليابانية.',
+                descAway: 'أبيض بسيط للغاية يتميز بخطوط فنية حمراء مرسومة بفرشاة الـ "سومي-إي" التقليدية للتعبير عن الثقافة الشرقية العتيقة.',
+                homeColors: {
+                    base: '#0F172A', // كحلي ساموراي
+                    trim: '#38BDF8', // أزرق سماوي
+                    pattern: 'waves',
+                    accent: '#EF4444', // نقطة حمراء
+                    fontColor: '#ffffff'
+                },
+                awayColors: {
+                    base: '#ffffff', // أبيض
+                    trim: '#EF4444', // أحمر
+                    pattern: 'brush-strokes',
+                    accent: '#0F172A',
+                    fontColor: '#0F172A'
+                }
+            },
+            {
+                id: 'usa',
+                name: 'الولايات المتحدة',
+                englishName: 'USA',
+                flag: '🇺🇸',
+                confederation: 'CONCACAF',
+                group: 'A',
+                coach: 'ماوريسيو بوتشيتينو',
+                star: 'كريستيان بوليسيتش',
+                descHome: 'قميص أبيض يتميز بياقة متطورة وأكمام مزينة بخطوط العلم الأمريكي والنجوم الفضية احتفاءً باستضافة المونديال على أرضهم.',
+                descAway: 'تصميم جريء مقسوم قطرياً بين الأزرق والأحمر الكلاسيكي، مع تفاصيل جرافيك مشتعلة ترمز للحيوية الأمريكية.',
+                homeColors: {
+                    base: '#ffffff', // أبيض
+                    trim: '#1E3A8A', // أزرق أمريكي
+                    pattern: 'stars-sleeves',
+                    accent: '#EF4444', // أحمر
+                    fontColor: '#1E3A8A'
+                },
+                awayColors: {
+                    base: '#1E3A8A', // أزرق
+                    trim: '#EF4444', // أحمر
+                    pattern: 'diagonal-half',
+                    accent: '#ffffff',
+                    fontColor: '#ffffff'
+                }
+            }
+        ];
+
+        // الحالة العامة للاستوديو التفاعلي
+        let customizerState = {
+            selectedTeamId: 'saudi',
+            jerseyType: 'home', // 'home' or 'away'
+            playerName: 'AL-DAWSARI',
+            playerNumber: '10',
+            fontColor: '#ffffff',
+            collarStyle: 'round' // 'round' or 'v'
+        };
+
+        // الحالة للمودال الحالي
+        let modalState = {
+            selectedTeam: null,
+            jerseyType: 'home'
+        };
+
+        // تشغيل الوظائف عند التحميل الأول
+        window.addEventListener('DOMContentLoaded', () => {
+            renderTeamsGrid(teamsData);
+            populateCustomizerSelect();
+            updateCustomizer();
+            setupSearchAndFilters();
+        });
+
+        // بناء المعرض ديناميكياً
+        function renderTeamsGrid(teams) {
+            const grid = document.getElementById('teamsGrid');
+            const noResults = document.getElementById('noResults');
+            grid.innerHTML = '';
+            
+            if (teams.length === 0) {
+                noResults.classList.remove('hidden');
+                return;
+            } else {
+                noResults.classList.add('hidden');
+            }
+
+            teams.forEach(team => {
+                const card = document.createElement('div');
+                card.className = 'glassmorphism rounded-2xl p-6 flex flex-col justify-between items-center transition-all duration-300 transform hover:-translate-y-2 glow-cyan cursor-pointer group relative overflow-hidden';
+                card.setAttribute('onclick', `openModal('${team.id}')`);
+
+                // بطاقة خلفية للزينة
+                card.innerHTML = `
+                    <div class="absolute top-3 right-3 text-2xl" title="${team.name}">${team.flag}</div>
+                    <span class="absolute top-3 left-3 px-2 py-0.5 rounded text-[10px] bg-white/10 text-gray-300 font-bold tracking-wider">${team.confederation}</span>
+                    
+                    <div class="w-full aspect-square flex items-center justify-center my-6">
+                        <div class="w-[140px] h-[160px] jersey-shadow transition-transform duration-300 group-hover:scale-110">
+                            ${generateJerseySVG(team, 'home', 'AL-DAWSARI', '10', 'round')}
+                        </div>
+                    </div>
+
+                    <div class="w-full text-center mt-2">
+                        <h4 class="text-lg font-bold text-white group-hover:text-wcNeonCyan transition-colors">${team.name}</h4>
+                        <div class="flex items-center justify-center gap-1.5 mt-1">
+                            <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${team.homeColors.base}; border: 1px solid rgba(255,255,255,0.2)"></span>
+                            <span class="w-2.5 h-2.5 rounded-full" style="background-color: ${team.awayColors.base}; border: 1px solid rgba(255,255,255,0.2)"></span>
+                            <span class="text-[10px] text-gray-400 font-medium">القميص الأساسي والاحتياطي</span>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // إعداد البحث والفلترة بالتناغم المباشر
+        function setupSearchAndFilters() {
+            const searchInput = document.getElementById('searchInput');
+            const filterSelect = document.getElementById('confederationFilter');
+
+            const performFilter = () => {
+                const query = searchInput.value.trim().toLowerCase();
+                const conf = filterSelect.value;
+
+                const filtered = teamsData.filter(team => {
+                    const matchesSearch = team.name.includes(query) || team.englishName.toLowerCase().includes(query);
+                    const matchesConf = conf === 'all' || team.confederation === conf;
+                    return matchesSearch && matchesConf;
+                });
+
+                renderTeamsGrid(filtered);
+            };
+
+            searchInput.addEventListener('input', performFilter);
+            filterSelect.addEventListener('change', performFilter);
+        }
+
+        // ملء خيارات منتخب استوديو التخصيص
+        function populateCustomizerSelect() {
+            const select = document.getElementById('custTeamSelect');
+            select.innerHTML = '';
+            teamsData.forEach(team => {
+                const opt = document.createElement('option');
+                opt.value = team.id;
+                opt.textContent = `${team.flag} ${team.name}`;
+                select.appendChild(opt);
+            });
+        }
+
+        // محرك رسم وتوليد قميص كرة القدم بالـ SVG بشكل متقن وديناميكي
+        function generateJerseySVG(team, type, customName = '', customNumber = '', collar = 'round', customFontColor = null) {
+            const isHome = type === 'home';
+            const colors = isHome ? team.homeColors : team.awayColors;
+            
+            // تحديد الألوان المستخدمة للرسم
+            const cBase = colors.base;
+            const cTrim = colors.trim;
+            const cAccent = colors.accent;
+            const finalFontColor = customFontColor || colors.fontColor;
+            
+            // تنظيف الاسم والفلترة للأحرف اللاتينية فقط للقميص كنمط احترافي للفيفا
+            let cleanName = customName.replace(/[^\w\s-]/gi, '').toUpperCase().trim();
+            if(!cleanName) {
+                // إذا كان فارغاً نضع اسم البلد بالإنجليزي
+                cleanName = team.englishName.toUpperCase();
+            }
+            if(cleanName.length > 12) cleanName = cleanName.substring(0, 12);
+
+            let cleanNumber = String(customNumber).replace(/[^0-9]/g, '');
+            if(!cleanNumber) cleanNumber = '10';
+            if(parseInt(cleanNumber) > 99) cleanNumber = '99';
+
+            // تعريف أنماط الرسوم الخاصة بالـ SVG ( patterns )
+            let patternDefs = '';
+            let patternMarkup = '';
+
+            // 1. الأنماط بناءً على تصميم كل منتخب
+            if (colors.pattern === 'palm') {
+                // نقوش ورقية خفيفة
+                patternDefs += `
+                    <pattern id="palmPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <path d="M10,0 Q12,5 20,5 Q12,5 10,20 Q8,5 0,5 Q8,5 10,0" fill="${cTrim}" fill-opacity="0.2"/>
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#palmPattern)" />`;
+            } else if (colors.pattern === 'stripes') {
+                // خطوط عمودية (مثل الأرجنتين)
+                patternDefs += `
+                    <pattern id="stripesPattern" x="0" y="0" width="20" height="100" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="10" height="100" fill="${cAccent}" />
+                        <rect x="10" y="0" width="10" height="100" fill="${cBase}" />
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#stripesPattern)" />`;
+            } else if (colors.pattern === 'fire') {
+                // أنماط نيران مشتعلة حديثة في الأسفل
+                patternMarkup = `
+                    <path d="M 30,75 L 35,60 L 40,75 L 45,55 L 50,75 L 55,50 L 60,75 L 65,55 L 70,75" stroke="${cTrim}" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+                    <path d="M 32,80 L 37,68 L 42,80 L 47,65 L 52,80 L 57,60 L 62,80 L 67,65 L 72,80" stroke="${cAccent}" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+                `;
+            } else if (colors.pattern === 'sash') {
+                // خط قطري مائل
+                patternMarkup = `
+                    <line x1="25" y1="20" x2="75" y2="90" stroke="${cAccent}" stroke-width="12" opacity="0.8"/>
+                    <line x1="30" y1="20" x2="80" y2="90" stroke="${cTrim}" stroke-width="3" opacity="0.5"/>
+                `;
+            } else if (colors.pattern === 'zellige') {
+                // نمط الزليج المغربي الهندسي المتكرر
+                patternDefs += `
+                    <pattern id="zelligePattern" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="16" height="16" fill="none"/>
+                        <path d="M8,0 L16,8 L8,16 L0,8 Z" fill="none" stroke="${cTrim}" stroke-width="1.5" stroke-opacity="0.25"/>
+                        <circle cx="8" cy="8" r="2" fill="${cAccent}" fill-opacity="0.3"/>
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#zelligePattern)" />`;
+            } else if (colors.pattern === 'geometric') {
+                // خطوط متقاطعة
+                patternMarkup = `
+                    <g stroke="${cTrim}" stroke-width="1" opacity="0.2">
+                        <line x1="30" y1="20" x2="70" y2="85" />
+                        <line x1="70" y1="20" x2="30" y2="85" />
+                        <line x1="50" y1="20" x2="50" y2="85" />
+                    </g>
+                `;
+            } else if (colors.pattern === 'pinstripes') {
+                // خطوط دقيقة رفيعة جداً
+                patternDefs += `
+                    <pattern id="pinPattern" x="0" y="0" width="8" height="100" patternUnits="userSpaceOnUse">
+                        <line x1="0" y1="0" x2="0" y2="100" stroke="${cTrim}" stroke-width="0.75" opacity="0.4"/>
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#pinPattern)" />`;
+            } else if (colors.pattern === 'safari') {
+                // نقوش الفهد
+                patternDefs += `
+                    <pattern id="safariPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+                        <circle cx="6" cy="6" r="3" fill="${cTrim}" fill-opacity="0.2"/>
+                        <circle cx="18" cy="18" r="4" fill="${cTrim}" fill-opacity="0.15"/>
+                        <path d="M2,18 Q4,14 8,18" stroke="${cTrim}" stroke-width="2" fill="none" stroke-opacity="0.2" stroke-linecap="round"/>
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#safariPattern)" />`;
+            } else if (colors.pattern === 'gradient-sleeves') {
+                // تدرج على الأكمام، نفعله لاحقاً بتلوين كم الـ SVG
+            } else if (colors.pattern === 'germany-fire') {
+                // لهيب علم ألمانيا على الكتف
+                patternMarkup = `
+                    <g opacity="0.85">
+                        <!-- أسود أحمر ذهبي كتف أيمن -->
+                        <path d="M70,22 L76,27 L68,36" stroke="#000000" stroke-width="2" fill="none"/>
+                        <path d="M72,22 L78,27 L70,36" stroke="#EF4444" stroke-width="2" fill="none"/>
+                        <path d="M74,22 L80,27 L72,36" stroke="#FBBF24" stroke-width="2" fill="none"/>
+                        <!-- أسود أحمر ذهبي كتف أيسر -->
+                        <path d="M30,22 L24,27 L32,36" stroke="#000000" stroke-width="2" fill="none"/>
+                        <path d="M28,22 L22,27 L30,36" stroke="#EF4444" stroke-width="2" fill="none"/>
+                        <path d="M26,22 L16,27 L28,36" stroke="#FBBF24" stroke-width="2" fill="none"/>
+                    </g>
+                `;
+            } else if (colors.pattern === 'digital-mesh') {
+                // شبكة رقمية عصرية
+                patternDefs += `
+                    <pattern id="digitalMesh" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+                        <rect x="0" y="0" width="3" height="3" fill="${cTrim}" fill-opacity="0.3"/>
+                        <rect x="3" y="3" width="3" height="3" fill="${cBase}" fill-opacity="0.2"/>
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#digitalMesh)" />`;
+            } else if (colors.pattern === 'waves') {
+                // أمواج يابانية ثلاثية الأبعاد خفيفة
+                patternDefs += `
+                    <pattern id="wavesPattern" x="0" y="0" width="30" height="15" patternUnits="userSpaceOnUse">
+                        <path d="M0,10 Q7.5,5 15,10 Q22.5,15 30,10" fill="none" stroke="${cTrim}" stroke-width="1.5" stroke-opacity="0.3"/>
+                    </pattern>
+                `;
+                patternMarkup = `<rect x="0" y="0" width="100" height="100" fill="url(#wavesPattern)" />`;
+            } else if (colors.pattern === 'brush-strokes') {
+                // ضربات فرشاة حمراء فنية
+                patternMarkup = `
+                    <path d="M 32,35 C 38,30 45,45 42,60 C 40,70 33,65 31,55 Z" fill="${cTrim}" fill-opacity="0.15" filter="blur(1px)"/>
+                    <path d="M 68,35 C 62,30 55,45 58,60 C 60,70 67,65 69,55 Z" fill="${cTrim}" fill-opacity="0.15" filter="blur(1px)"/>
+                `;
+            } else if (colors.pattern === 'stars-sleeves') {
+                // نجوم خفيفة على الأكتاف
+                patternMarkup = `
+                    <g fill="${cTrim}" opacity="0.6">
+                        <polygon points="20,26 21,28 23,28 21.5,29.5 22,31.5 20,30 18,31.5 18.5,29.5 17,28 19,28" />
+                        <polygon points="80,26 81,28 83,28 81.5,29.5 82,31.5 80,30 78,31.5 78.5,29.5 77,28 79,28" />
+                    </g>
+                `;
+            } else if (colors.pattern === 'diagonal-half') {
+                // انقسام مائل هندسي
+                patternMarkup = `
+                    <path d="M 30,85 L 70,35 L 70,85 Z" fill="${cTrim}" fill-opacity="0.3" />
+                `;
+            }
+
+            // تظليل ومجسم القميص (3D Shading effect) لجعله واقعياً للغاية
+            const shadingMarkup = `
+                <!-- تدرجات الظل الداخلي لإبراز تجاعيد القماش ومجسم القميص -->
+                <linearGradient id="bodyShade" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#000000" stop-opacity="0.4" />
+                    <stop offset="20%" stop-color="#000000" stop-opacity="0.1" />
+                    <stop offset="50%" stop-color="#ffffff" stop-opacity="0.15" />
+                    <stop offset="80%" stop-color="#000000" stop-opacity="0.1" />
+                    <stop offset="100%" stop-color="#000000" stop-opacity="0.4" />
+                </linearGradient>
+                <linearGradient id="sleeveShade" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#000000" stop-opacity="0.3" />
+                    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1" />
+                </linearGradient>
+            `;
+
+            // بناء الكود النهائي لقميص الـ SVG
+            const svgCode = `
+                <svg viewBox="0 0 100 110" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        ${patternDefs}
+                        ${shadingMarkup}
+                    </defs>
+
+                    <!-- قناع يضمن عدم خروج النقوش والأنماط عن حدود جسم القميص وأكمامه -->
+                    <clipPath id="jerseyClip">
+                        <path d="M 50,22 Q 42,22 40,20 L 25,25 L 14,40 L 22,46 L 30,41 L 30,85 Q 50,88 70,85 L 70,41 L 78,46 L 86,40 L 75,25 L 60,20 Q 58,22 50,22 Z" />
+                    </clipPath>
+
+                    <g clip-path="url(#jerseyClip)">
+                        <!-- الخلفية واللون الأساسي للقميص -->
+                        <rect x="0" y="0" width="100" height="110" fill="${cBase}" />
+
+                        <!-- تطبيق نقوش المنتخب الرسمية -->
+                        ${patternMarkup}
+
+                        <!-- تلوين الأكمام بشكل مميز للأطراف -->
+                        <path d="M 25,25 L 14,40 L 22,46 L 30,41 Z" fill="${colors.pattern === 'gradient-sleeves' ? cTrim : cBase}" />
+                        <path d="M 75,25 L 86,40 L 78,46 L 70,41 Z" fill="${colors.pattern === 'gradient-sleeves' ? cTrim : cBase}" />
+
+                        <!-- حافة الأكمام (تطريز الأطراف) -->
+                        <path d="M 14,40 L 22,46" stroke="${cTrim}" stroke-width="2.5" stroke-linecap="round" />
+                        <path d="M 86,40 L 78,46" stroke="${cTrim}" stroke-width="2.5" stroke-linecap="round" />
+
+                        <!-- طبقة التظليل ثلاثي الأبعاد فوق الأنماط والألوان -->
+                        <rect x="0" y="0" width="100" height="110" fill="url(#bodyShade)" style="mix-blend-mode: multiply;" />
+
+                        <!-- تفاصيل الأكمام وتظليلها الإضافي -->
+                        <path d="M 25,25 L 14,40 L 22,46 L 30,41 Z" fill="url(#sleeveShade)" style="mix-blend-mode: multiply;" />
+                        <path d="M 75,25 L 86,40 L 78,46 L 70,41 Z" fill="url(#sleeveShade)" style="mix-blend-mode: multiply;" />
+
+                        <!-- شعار البلد (تمثيل رمزي أنيق - كرة وعلم) على الجهة اليسرى للصدر -->
+                        <circle cx="39" cy="38" r="3.5" fill="${finalFontColor}" opacity="0.9"/>
+                        <circle cx="39" cy="38" r="2.5" fill="${cBase}" />
+                        <text x="39" y="39.5" font-family="'Cairo', sans-serif" font-size="3" font-weight="bold" fill="${finalFontColor}" text-anchor="middle" opacity="0.95">${team.flag}</text>
+
+                        <!-- رقم اللاعب على الصدر (صغير على اليمين) -->
+                        <text x="61" y="40" font-family="'Cairo', sans-serif" font-size="7" font-weight="900" fill="${finalFontColor}" text-anchor="middle">${cleanNumber}</text>
+
+                        <!-- اسم اللاعب المكتوب على الظهر (يظهر محاكاة أنيقة مقلوبة أو مستقيمة) -->
+                        <!-- تصميم الاسم -->
+                        <text x="50" y="54" font-family="sans-serif" font-size="4.5" font-weight="bold" fill="${finalFontColor}" text-anchor="middle" letter-spacing="0.5" opacity="0.85">${cleanName}</text>
+                        
+                        <!-- رقم اللاعب الكبير في وسط الظهر للتخصيص الفعلي -->
+                        <text x="50" y="74" font-family="sans-serif" font-size="16" font-weight="900" fill="${finalFontColor}" text-anchor="middle" style="letter-spacing: -1px;">${cleanNumber}</text>
+                    </g>
+
+                    <!-- الياقة (العنق) مرسومة بشكل منفصل لتطابق الاختيار والتجسيم -->
+                    ${collar === 'round' ? 
+                        `<path d="M 40,20 Q 50,26 60,20" fill="none" stroke="${cTrim}" stroke-width="2.5" stroke-linecap="round" />` : 
+                        `<path d="M 40,20 L 50,27 L 60,20" fill="none" stroke="${cTrim}" stroke-width="2.5" stroke-linecap="round" />`
+                    }
+                </svg>
+            `;
+            return svgCode;
+        }
+
+        // تحديث استوديو التخصيص عند أي تغيير في المدخلات
+        function updateCustomizer() {
+            const teamSelect = document.getElementById('custTeamSelect');
+            const teamId = teamSelect.value;
+            const team = teamsData.find(t => t.id === teamId);
+            
+            if (!team) return;
+
+            customizerState.selectedTeamId = teamId;
+            
+            // قراءة المدخلات الأخرى
+            const nameInput = document.getElementById('custNameInput');
+            const numInput = document.getElementById('custNumInput');
+            
+            customizerState.playerName = nameInput.value || 'AL-DAWSARI';
+            customizerState.playerNumber = numInput.value || '10';
+            
+            // عد الأحرف
+            document.getElementById('nameCharCount').textContent = `${nameInput.value.length}/12`;
+
+            // قراءة اللون وتحديثه
+            const fontColorInput = document.getElementById('custFontColor');
+            // إذا لم يتم تغييره يدوياً، نأخذ اللون الافتراضي للمنتخب المعين
+            const defaultColor = customizerState.jerseyType === 'home' ? team.homeColors.fontColor : team.awayColors.fontColor;
+            
+            if(!fontColorInput.dataset.userChanged || fontColorInput.dataset.userChanged === 'false') {
+                fontColorInput.value = defaultColor;
+                document.getElementById('custFontColorValue').textContent = defaultColor;
+                customizerState.fontColor = defaultColor;
+            } else {
+                customizerState.fontColor = fontColorInput.value;
+                document.getElementById('custFontColorValue').textContent = fontColorInput.value;
+            }
+
+            // تحديث بطاقة الاستوديو بالمعلومات
+            document.getElementById('customizerCountryName').textContent = team.name;
+            document.getElementById('customizerFlag').textContent = team.flag;
+            document.getElementById('customizerJerseyTitle').textContent = customizerState.jerseyType === 'home' ? `القميص الأساسي لـ ${team.name}` : `القميص الاحتياطي لـ ${team.name}`;
+            
+            let confName = '';
+            switch(team.confederation) {
+                case 'AFC': confName = 'الإتحاد الآسيوي لكرة القدم (AFC)'; break;
+                case 'CAF': confName = 'الإتحاد الأفريقي لكرة القدم (CAF)'; break;
+                case 'UEFA': confName = 'الإتحاد الأوروبي لكرة القدم (UEFA)'; break;
+                case 'CONMEBOL': confName = 'إتحاد أمريكا الجنوبية (CONMEBOL)'; break;
+                case 'CONCACAF': confName = 'إتحاد أمريكا الشمالية (CONCACAF)'; break;
+                default: confName = 'الاتحاد الدولي لكرة القدم';
+            }
+            document.getElementById('customizerJerseyConfed').textContent = confName;
+
+            // توليد وحقن الـ SVG النهائي
+            const container = document.getElementById('customizerJerseyContainer');
+            container.innerHTML = generateJerseySVG(
+                team, 
+                customizerState.jerseyType, 
+                customizerState.playerName, 
+                customizerState.playerNumber, 
+                customizerState.collarStyle,
+                customizerState.fontColor
+            );
+        }
+
+        // تبديل نوع القميص في الاستوديو (أساسي / احتياطي)
+        function toggleJerseyType(type) {
+            customizerState.jerseyType = type;
+            const btnHome = document.getElementById('btnHome');
+            const btnAway = document.getElementById('btnAway');
+            const fontColorInput = document.getElementById('custFontColor');
+
+            // تصفير إشارة التعديل اليدوي للون لكي يأخذ اللون المناسب للنوع الجديد تلقائياً
+            fontColorInput.dataset.userChanged = 'false';
+
+            if (type === 'home') {
+                btnHome.className = 'py-2 text-xs font-bold rounded-lg transition-all bg-wcNeonCyan text-wcDark';
+                btnAway.className = 'py-2 text-xs font-bold rounded-lg transition-all text-gray-400 hover:text-white';
+            } else {
+                btnAway.className = 'py-2 text-xs font-bold rounded-lg transition-all bg-wcNeonCyan text-wcDark';
+                btnHome.className = 'py-2 text-xs font-bold rounded-lg transition-all text-gray-400 hover:text-white';
+            }
+            updateCustomizer();
+        }
+
+        // مستمع تغيير لون الخط يدوياً
+        document.getElementById('custFontColor').addEventListener('input', (e) => {
+            e.target.dataset.userChanged = 'true';
+            document.getElementById('custFontColorValue').textContent = e.target.value;
+            updateCustomizer();
+        });
+
+        // تغيير نمط الياقة بالاستوديو
+        function setCollarStyle(style) {
+            customizerState.collarStyle = style;
+            const btnRound = document.getElementById('collarRound');
+            const btnV = document.getElementById('collarV');
+
+            if (style === 'round') {
+                btnRound.className = 'py-2 rounded-lg bg-white/10 text-white font-bold';
+                btnV.className = 'py-2 rounded-lg text-gray-400 hover:text-white font-bold';
+            } else {
+                btnV.className = 'py-2 rounded-lg bg-white/10 text-white font-bold';
+                btnRound.className = 'py-2 rounded-lg text-gray-400 hover:text-white font-bold';
+            }
+            updateCustomizer();
+        }
+
+        // فتح نافذة تفاصيل المنتخبات (Modal)
+        function openModal(teamId) {
+            const team = teamsData.find(t => t.id === teamId);
+            if (!team) return;
+
+            modalState.selectedTeam = team;
+            modalState.jerseyType = 'home'; // افتراضي
+
+            document.getElementById('modalTeamFlag').textContent = team.flag;
+            document.getElementById('modalTeamName').textContent = team.name;
+            document.getElementById('modalTeamGroup').textContent = `المجموعة ${team.group}`;
+            document.getElementById('modalTeamCoach').textContent = team.coach;
+            document.getElementById('modalTeamStar').textContent = team.star;
+            document.getElementById('modalJerseyDesc').textContent = team.descHome;
+
+            let confText = '';
+            switch(team.confederation) {
+                case 'AFC': confText = 'الإتحاد الآسيوي (AFC)'; break;
+                case 'CAF': confText = 'الإتحاد الأفريقي (CAF)'; break;
+                case 'UEFA': confText = 'الإتحاد الأوروبي (UEFA)'; break;
+                case 'CONMEBOL': confText = 'أمريكا الجنوبية (CONMEBOL)'; break;
+                case 'CONCACAF': confText = 'أمريكا الشمالية (CONCACAF)'; break;
+            }
+            document.getElementById('modalTeamConfed').textContent = confText;
+
+            // تحديث أزرار المودال للقميص
+            updateModalJerseyUI();
+
+            // إظهار المودال مع تأثير انتقال
+            const modal = document.getElementById('teamModal');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.querySelector('.transform').classList.remove('scale-95');
+            }, 10);
+
+            // ربط زر التخصيص داخل المودال ليذهب للاستوديو مباشرة بالمنتخب المحدد
+            const customizeBtn = document.getElementById('modalCustomizeBtn');
+            customizeBtn.onclick = () => {
+                closeModal();
+                // تحديد المنتخب بالاستوديو
+                document.getElementById('custTeamSelect').value = team.id;
+                // تبديل النوع لنفس المعروض بالمودال
+                toggleJerseyType(modalState.jerseyType);
+                // الذهاب للاستوديو بحركة تصفح ناعمة
+                document.getElementById('customizer').scrollIntoView({ behavior: 'smooth' });
+            };
+        }
+
+        // إغلاق المودال
+        function closeModal() {
+            const modal = document.getElementById('teamModal');
+            modal.classList.add('opacity-0');
+            modal.querySelector('.transform').classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        // تبديل نوع القميص داخل نافذة التفاصيل (أساسي / احتياطي)
+        function switchModalJerseyType(type) {
+            modalState.jerseyType = type;
+            updateModalJerseyUI();
+        }
+
+        // تحديث واجهة المودال لعرض قميص الأساسي أو البديل
+        function updateModalJerseyUI() {
+            const team = modalState.selectedTeam;
+            const container = document.getElementById('modalJerseyContainer');
+            const btnHome = document.getElementById('modalBtnHome');
+            const btnAway = document.getElementById('modalBtnAway');
+            const desc = document.getElementById('modalJerseyDesc');
+
+            container.innerHTML = generateJerseySVG(team, modalState.jerseyType, 'WORLD CUP', '26', 'round');
+
+            if (modalState.jerseyType === 'home') {
+                btnHome.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg bg-wcNeonCyan text-wcDark transition-all';
+                btnAway.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg bg-white/5 text-gray-300 hover:text-white border border-white/10 transition-all';
+                desc.textContent = team.descHome;
+            } else {
+                btnAway.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg bg-wcNeonCyan text-wcDark transition-all';
+                btnHome.className = 'flex-1 py-1.5 text-xs font-bold rounded-lg bg-white/5 text-gray-300 hover:text-white border border-white/10 transition-all';
+                desc.textContent = team.descAway;
+            }
+        }
+
+        // وظيفة نسخ رابط المشاركة للاستوديو التفاعلي
+        function copyShareLink() {
+            const tempInput = document.createElement('input');
+            // رابط وهمي محاكي للاستوديو
+            tempInput.value = window.location.href.split('#')[0] + '#customizer';
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const alertBox = document.getElementById('shareAlert');
+            alertBox.classList.remove('opacity-0');
+            setTimeout(() => {
+                alertBox.classList.add('opacity-0');
+            }, 3000);
+        }
+
+        // وظيفة تحميل تصميم القميص كـ SVG مباشرة
+        function downloadJerseyDesign() {
+            const team = teamsData.find(t => t.id === customizerState.selectedTeamId);
+            if (!team) return;
+
+            const svgElementMarkup = generateJerseySVG(
+                team, 
+                customizerState.jerseyType, 
+                customizerState.playerName, 
+                customizerState.playerNumber, 
+                customizerState.collarStyle,
+                customizerState.fontColor
+            );
+
+            // إنشاء ملف للتحميل
+            const blob = new Blob([svgElementMarkup], { type: 'image/svg+xml;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            
+            const downloadLink = document.createElement('a');
+            downloadLink.href = url;
+            downloadLink.download = `قميص-${team.name}-${customizerState.jerseyType === 'home' ? 'الاساسي' : 'الاحتياطي'}-2026.svg`;
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+            URL.revokeObjectURL(url);
+        }
+    </script>
+</body>
+</html>
